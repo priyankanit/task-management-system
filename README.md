@@ -39,7 +39,8 @@ The project includes:
 
 ## Project Structure
 
-``` task-management-system/
+``` 
+task-management-system/
 ├── backend/ # Node.js + TypeScript backend API
 │ ├── src/
 │ │ ├── controllers/ # Request handlers (Auth, Tasks)
@@ -63,8 +64,8 @@ The project includes:
 │ ├── pubspec.yaml
 │ └── README.md # Mobile app documentation
 │
-└── README.md # Root project documentation ```
-
+└── README.md # Root project documentation 
+```
 
 
 ## Screenshots
