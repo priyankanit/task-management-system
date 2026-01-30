@@ -1,16 +1,40 @@
 # task_manager_app
 
-A new Flutter project.
+This file contains the flutter mobile application for the Task Management System.
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Provider (MVVM Architecture)
+- Dio (HTTP client)
+- flutter_secure_storage
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User Authentication (Login & Register)
+- Secure token storage
+- Auto-login on app restart
+- Task CRUD operations
+- Task status toggle
+- Search and filter tasks
+- Pull-to-refresh
+- Logout functionality
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Run Instructions
+```Run on emulator:
+flutter run
+
+```Run on Real Android Device:
+To run the app on a real Android device:
+
+1. Start the backend server locally
+
+2. Find your machine IP address
+
+3. Build the APK using: flutter build apk --release --dart-define=API_URL=http://<your-local-ip>:3000
+
+
+## Install dependencies
+```bash
+flutter pub get
