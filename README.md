@@ -39,7 +39,7 @@ The project includes:
 
 ## Project Structure
 
-task-management-system/
+``` task-management-system/
 ├── backend/ # Node.js + TypeScript backend API
 │ ├── src/
 │ │ ├── controllers/ # Request handlers (Auth, Tasks)
@@ -63,7 +63,8 @@ task-management-system/
 │ ├── pubspec.yaml
 │ └── README.md # Mobile app documentation
 │
-└── README.md # Root project documentation
+└── README.md # Root project documentation ```
+
 
 
 ## Screenshots
@@ -97,7 +98,7 @@ task-management-system/
 
 ## Pending Task 
 
-<img src="images/pending.png" alt="EmployeeList Screen" width="300" height="600">
+<img src="images/pending task.png" alt="EmployeeList Screen" width="300" height="600">
 
 ## Completed Task
 
